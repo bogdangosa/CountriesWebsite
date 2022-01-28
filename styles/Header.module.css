@@ -1,0 +1,13 @@
+.Header{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    background: #2b3945;
+    color: #fff;
+}
+.Header_title{
+    font-size: 1.5rem;
+}

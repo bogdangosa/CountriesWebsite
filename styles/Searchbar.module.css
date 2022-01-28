@@ -1,0 +1,21 @@
+.Searchbar{
+    padding: 0.8rem 2rem;
+    background: #2b3945;
+    border-radius: 0.3rem;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Searchbar_search_btn{
+    height: 1.3rem;
+    margin-right: 1rem;
+}
+.Searchbar_input{
+    background: #2b3945;
+    color: #fff;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    min-width: 40vw;
+}

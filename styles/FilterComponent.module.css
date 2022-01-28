@@ -1,0 +1,39 @@
+.FilterComponent{
+    padding: 0.8rem 2rem;
+    margin: 0;
+    background: #2b3945;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    width: 15vw;
+}
+.FilterComponentTopText{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.FilterComponentOptions{
+    position: absolute;
+    left: 0;
+    top: 125%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2b3945;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+    padding:0.4rem 0;
+}
+.FilterVisible{
+    opacity: 1;
+}
+
+.FilterComponentOption{
+    margin: 0;
+    padding:0.4rem 0;
+}
