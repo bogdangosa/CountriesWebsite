@@ -1,8 +1,22 @@
+:root{
+  --color-primary:#fafafa;
+  --color-secondary:#ffffff;
+  --color-accent:#858585;
+  --color-text:#000000;
+}
+
+[data-theme="dark"]{
+  --color-primary:#202c37;
+  --color-secondary:#2b3945;
+  --color-accent:#111517;
+  --color-text:#ffffff;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  background:#202c37;
+  background:var(--color-primary);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   max-width: 100vw;
